@@ -7,6 +7,7 @@ RSpec.feature "Listing Articles" do
     @article2 = Article.create(title: "The second article", body: "Body of 2nd article")
   end
   
+  
   scenario "A user lists all article" do
     visit "/"
     
